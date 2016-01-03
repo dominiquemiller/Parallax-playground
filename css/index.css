@@ -40,7 +40,7 @@ position: relative;
 }
 
 .content {
-  margin: 0 auto;
+  margin-top: 10px;
   width:960px;
 }
 
@@ -84,35 +84,16 @@ position: relative;
   margin: 50px auto;
 }
 
-.quotes_container {
+/*.quotes_container {
   width: 800px;
   margin: 0 auto;
-}
-
-#christmas_tree {
-  background: url('../images/christmas-tree.png')no-repeat;
-  width: 48px;
-  height: 77px;
-  margin: 0 auto;
-  position: relative;
-  bottom: -35px;
-}
+}*/
 
 #divider {
   background: url('../images/divider.png')no-repeat;
   width: 300px;
   height: 35px;
   margin: 0px auto 27px auto;
-}
-
-#ribbon {
-  background: url('../images/ribbon.png')no-repeat;
-  width: 251px;
-  height: 48px;
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  top: -38px;
 }
 
 #slide1, #slide2{
@@ -140,7 +121,7 @@ padding: 100px 0;
 #slide3 {
 background: url('../images/me.jpg') 50% 0 no-repeat fixed;
 color: #fff;
-height: 600px;
+height: 700px;
 padding: 170px 0 0 0;
 background-size: cover;
 }
@@ -148,7 +129,7 @@ background-size: cover;
 #slide4 {
 background-color: #fff;
 color: #333333;
-height: 600px;
+height: 700px;
 padding: 100px 0;
 }
 
@@ -159,4 +140,24 @@ margin: 0 auto;
 padding: 250px 0;
 color: #fff;
 background-size: cover;
+}
+
+.ruby-projects {
+  margin-top: 35px;
+  opacity: .8;
+}
+
+.rails-projects {
+  margin-top: 35px;
+  opacity: .8;
+}
+
+.contact-info {
+  display: none;
+  background-color:#fff;
+  border-radius:10px 10px 10px 10px;
+  box-shadow:0 0 25px 5px #999;
+  width: 300px;
+  color:#111;
+  padding:25px;
 }
